@@ -1,0 +1,77 @@
+.loginSection {
+    position: fixed;
+    top: 5px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #cbcbcb;
+}
+
+.loginText {
+    margin-right: 20px;
+}
+
+.loginInput {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.loginButton {
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #84ffa0;
+    color: black;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: #00ff1a;
+}
+
+.messageItem {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.messageBoard {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.messageInput {
+    flex-grow: 1;
+    margin-left: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.messageButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff89f5;
+    color: #000000;
+    cursor: pointer;
+}
